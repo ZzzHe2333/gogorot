@@ -1,0 +1,46 @@
+# -*- coding: utf-8 -*-
+
+
+from msvcrt import kbhit
+
+
+a=input("请输入你的背包现有原石数")
+b=input("请输入你的背包现有结晶数，氪金的那个")
+c=input("请输入你背包现有粉球数")
+d=input("请输入需要做几天日常委托")
+k=input("是否买月卡了，买就是1，否则是0")
+e=input("请输入纪行等级")
+f=input("请输入几次小活动")
+g=input("请输入")
+
+def richangweituo(thed)
+    if k=1 :
+        thed = 150 * d
+    else :
+        thed = 60 * d
+    print (thed,"是你的每日可获得数量") 
+    return thed
+
+#判断纪行等级
+def zhenzhujixing(thee):
+    if int(e/10) < 5 :
+        if int(e/10) >= 0
+            thee = int(e/10)
+        else :
+            thee = 0
+    else :
+        thee = 4
+    #输出thee的值，代表了纪行所拥有的粉球
+    print (thee,"是你的纪行粉球")
+    return thee
+
+def jicihuodong(thef)
+#一般来说版本有三次小活动
+    if f = 1 :
+        return 420
+    elif f = 2 :
+        return 840
+    elif f = 3 :
+        return 1230
+    else : 
+        return 0
